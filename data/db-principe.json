@@ -1,0 +1,54 @@
+{
+    "Products": [
+      {
+        "id": "1",
+        "nombre": "Prenda 1",
+        "imagen_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201510/PrincipeFresco/prenda1_aeazbm.png",
+        "imagen2_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201446/PrincipeFresco/prenda11_itpv0k.png",
+        "imagen3_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201450/PrincipeFresco/prenda12_hrtntv.png",
+        "precio": "150000"
+      },
+      {
+        "id": "2",
+        "nombre": "Prenda 2",
+        "imagen_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201435/PrincipeFresco/prenda2_zwcku9.png",
+        "imagen2_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201452/PrincipeFresco/prenda21_aoanje.png",
+        "imagen3_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201452/PrincipeFresco/prenda21_aoanje.png",
+        "precio": "160000"
+      },
+      {
+        "id": "3",
+        "nombre": "Prenda 3",
+        "imagen_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201438/PrincipeFresco/prenda3_fp8h1q.png",
+        "imagen2_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201489/PrincipeFresco/prenda31_cpmvbc.png",
+        "imagen3_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201491/PrincipeFresco/prenda32_po2bla.png",
+        "precio": "170000"
+      },
+      {
+        "id": "4",
+        "nombre": "Prenda 4",
+        "imagen_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201442/PrincipeFresco/prenda4_xuz0lk.png",
+        "imagen2_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201493/PrincipeFresco/prenda41_orowuw.png",
+        "imagen3_url": "https://res.cloudinary.com/dcht8jc4n/image/upload/v1642201495/PrincipeFresco/prenda42_ygn6rh.png",
+        "precio": "190000"
+      },
+      {
+        "id": "5",
+        "nombre": "Prenda 5",
+        "imagen_url": "",
+        "precio": "100000"
+      },
+      {
+        "id": "6",
+        "nombre": "Prenda 6",
+        "imagen_url": "",
+        "precio": "100000"
+      },
+      {
+        "id": "7",
+        "nombre": "Prenda 7",
+        "imagen_url": "",
+        "precio": "100000"
+      }
+    ]
+  }
