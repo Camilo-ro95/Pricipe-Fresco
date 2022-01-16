@@ -1,0 +1,47 @@
+/* ================NAVBAR============= */
+nav{
+    padding-right: 5%;
+}
+nav .nav-item{
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    text-decoration: none;
+}
+#shop{
+    color: black;
+}
+#coll{
+    color:black;
+}
+#user{
+    color:black;
+}
+#cart{
+    color:black;
+}
+/* ============Container============== */
+#cont{
+    
+    border-radius: 8px;
+    box-shadow: 2px 1px 18px 10px  rgb(210, 213, 210);
+}
+/* ==========Banner========== */
+
+/* =======footer======== */
+#youtube{
+    color:white;
+    font-size: 180%;
+}
+#facebook{
+    color:white;
+    font-size: 180%;
+}
+div.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.footer a{
+    text-decoration: none;
+}
