@@ -12,10 +12,10 @@ const getData = async () =>{
             const {id, nombre, imagen, imagen2, imagen3, precio} = element;
        
         cards.innerHTML += `
-        <div style="margin: auto; width: 18%">
-            <img style="width: 60%" src="${imagen}" title="${nombre}" alt="">
-            <h4>${nombre}</h4>
-            <a class="btn " href="">Ver Detalle</a>
+        <div id="card" style="margin: auto; width: 30%">
+            <img class="d-block (display-block) mx-auto (margin-auto) " style="width: 60% " src="${imagen}" title="${nombre}" alt="">
+            <h4 style="font-size: .9rem">${nombre}</h4>
+            <a class="btn d-block (display-block) mx-auto (margin-auto)" href="./pages/${nombre}.html">Ver Detalle</a>
         </div>
     </div>
         `
