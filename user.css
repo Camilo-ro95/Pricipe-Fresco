@@ -1,0 +1,33 @@
+body{
+    font-family: 'Shadows';
+    font-style: italic;
+    font-weight: 800;
+    background-image: url("https://res.cloudinary.com/dw4dh7nkd/image/upload/v1642310410/bla/prince_uhze9q.png");
+    background-size: cover;
+}
+#prince{
+    color: #ec5b08;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    font-style: oblique;
+}
+#shop{
+    color: black;
+}
+#coll{
+    color:black;
+}
+#user{
+    color:black;
+}
+#cart{
+    color:black;
+}
+h3{
+    color:rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: #ec5b08;
+}
