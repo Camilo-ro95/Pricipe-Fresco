@@ -22,6 +22,41 @@ nav a{
 #cart{
     color:black;
 }
+/* =======MODAL============ */
+#popup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.199);
+    transition: opacity .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+#popup:target{
+    visibility: visible;
+    opacity: 1;
+}
+#body{
+    width: 45%;
+    padding: 2%;
+    border-radius: 2px;
+    background-color: white;
+    overflow-y: scroll;
+    position: relative;
+    margin: 4.8% 54% auto;
+    transition: all 2s ease-in-out;
+}
+#cerrar{
+    position: absolute;
+    right: 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: all .5s;
+}
 /* ============CARDS 1 ============ */
 #main{
     max-width: 80%;
