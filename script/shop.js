@@ -1,5 +1,5 @@
 
-const datos = 'http://localhost:3000/Products';
+export const datos = 'http://localhost:3000/Products';
 
 const cards = document.getElementById('cont');
 

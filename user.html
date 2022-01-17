@@ -14,26 +14,21 @@
 
 <body>
 
-    <nav class="navbar navbar-light" style="background-color: #ffffff;">
+    <nav class="navbar navbar-light fixed-top" style="background-color: #ffffff;">
         <div class="container-fluid">
-            <a class="nav-item nav-link" href="index.html" id="prince">PRINCIPE FRESCO</a>
-                <a class="nav-item nav-link" href="shop.html" id="shop">SHOP</a>
-                <a class="nav-item nav-link" href="#" id="coll">COLLECTIONS</a>
-                <a span class="icon-user" href="user.html" id="user"></span></a>
-                <a span class="icon-cart" href="cart.html" id="cart"></span></a>
-                
+            <a class="nav-item nav-link" href="index.html" id="prince"><img style="width: 70%;" src="./img/Príncipe fresco.png" alt=""></a>
+                <a class="nav-item nav-link" href="./shop.html" id="shop">SHOP</a>
+                <a span class="icon-user" href="./user.html" id="user"></span></a>
+                <a span class="icon-cart" href="./pages/cart.html" id="cart"></span></a> 
         </div>
     </nav>
 
+<br><br>
 
-
-    <div class="container mt-5">
-
-        <hr />
-        <div class="row">
-
-            <div div class="col-12">
-                <h3 class="text-center"> REGISTRO </h3>
+    <div style="width: 70%;" class="container mt-5">
+        <div class="row"
+            <div id="cont-form"  class="col-12">
+                <h3 id="registro" class="text-center"> REGISTRO </h3>
 
                 <form class="form-group">
 
@@ -46,20 +41,33 @@
                     <input id="inputDireccion" type="text" class="form-control mt-2" name="direccion" autoComplete="off"
                         placeholder="Direccion" required/>    
 
-                    <input id="inputCorreo" type="text" class="form-control mt-2" name="correo" autoComplete="off"
+                    <input id="inputCorreo" type="email" class="form-control mt-2" name="correo" autoComplete="off"
                         placeholder="Correo" required/>
 
                     <textarea id="inputObservaciones" class="form-control mt-2" autoComplete="off" name="observaciones" placeholder="Observaciones" required></textarea>
 
                     <div class="d-grid gap-2 mx-auto mt-2">
-                        <input value="Enviar" type="submit" class="btn btn-outline-dark " style="background-color: #ec5b08;" />
+                        <input value="Enviar" type="button" class="btn " />
                     </div>
                 </form>
             </div>
 
         </div>
     </div>
-
+    <!-- ---------------BANNER---------------------- -->
+    <div id="wrapper">
+        <center>
+        <img style="width: 100%;" src="https://res.cloudinary.com/dw4dh7nkd/image/upload/v1642310410/bla/prince_uhze9q.png" alt="">
+    </center>
+    </div>
+    <!-- -------------FOOTER----------------- -->
+    <div class="footer bottom">
+        <center>
+            <h3 class="text-center" id="prince"><img style="width: 10%;"src="./img/Príncipe fresco.png" alt=""></h3>
+            <a span class="icon-youtube" href="#" id="youtube"></span></a>&nbsp;&nbsp;&nbsp;
+            <a span class="icon-facebook2" href="#" id="facebook"></span></a>
+        </center>
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&family=Inter:wght@300&family=Luxurious+Script&family=M+PLUS+Code+Latin&family=Merriweather&family=Mohave:wght@600&family=Montagu+Slab&family=Nunito:ital@1&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap');
 body{
-    /* font-family: 'Shadows'; */
-    /* font-style: italic; */
     font-weight: 500;
     background-image: url("https://res.cloudinary.com/dw4dh7nkd/image/upload/v1642310410/bla/prince_uhze9q.png");
     background-size: cover;
@@ -44,7 +42,7 @@ nav a{
     display: flex;
     padding: 0;
     width: 400%;
-    animation: cambio 20s infinite;
+    animation: cambio 15s infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in;
 }

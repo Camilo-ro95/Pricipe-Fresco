@@ -1,16 +1,13 @@
-body{
-    font-family: 'Shadows';
-    font-style: italic;
-    font-weight: 800;
-    background-image: url("https://res.cloudinary.com/dw4dh7nkd/image/upload/v1642310410/bla/prince_uhze9q.png");
-    background-size: cover;
+/* --------------------NAVBAR---------------------- */
+nav{
+    padding-right: 5%;
+    box-shadow: 2px 1px 18px 10px  rgb(210, 213, 210);
 }
-#prince{
-    color: #ec5b08;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    font-weight: 800;
-    font-style: oblique;
+nav .nav-item{
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    text-decoration: none;
 }
 #shop{
     color: black;
@@ -24,10 +21,55 @@ body{
 #cart{
     color:black;
 }
-h3{
-    color:rgb(0, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    font-style: italic;
-    background-color: #ec5b08;
+/* ------------------FORM------------------- */
+#container{
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 1px 18px 10px  rgb(210, 213, 210);
+}
+#cont-form{
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: 2px 1px 18px 10px  rgb(210, 213, 210)
+}
+#registro{
+    color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;;
+    font-size: 2rem;
+    background-color: #ec5c08cd;
+    border-radius: 4px;
+}
+.btn{
+    color: coral;
+    font-weight: bolder;
+    background-color: white;
+    border: 3px solid coral;
+    transition: all .5s ease;
+    
+}
+.btn:hover{
+    background-color: coral;
+    color: white;
+    border: 3px solid coral;
+}
+/* --------------BANNER------------- */
+#wrapper {
+    margin-top: 8%;
+}
+/* -------------FOOTER------------- */
+#youtube{
+    color:white;
+    font-size: 180%;
+}
+#facebook{
+    color:white;
+    font-size: 180%;
+}
+div.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.footer a{
+    text-decoration: none;
 }
