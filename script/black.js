@@ -1,4 +1,5 @@
 import { datos } from './shop.js'
+import getDatos from './getData.js'
 
 const container = document.querySelector('.cards1');
 const container2 = document.querySelector('.cards2');
@@ -54,7 +55,43 @@ const getData = async () =>{
     <a id="otros" href="../shop.html" class="btn">Ver mas productos</a>
     </center>
     `
+    const btnDetail = document.querySelector('.btn-primary')
+    container3.addEventListener('click', e => {
+        print(btnDetail);
+    })
+
 }
+
+const print = async btnDetail => {
+
+    if (btnDetail.classList.contains('btn-primary')) {
+        const idX = btnDetail.id
+        const detalles = await getDatos(datos);
+
+        const object = detalles.find(items => items.id === Number(idX));
+
+        localStorage.setItem('Producto', JSON.stringify(object));
+    }
+    bringData();
+}
+
+const modal = document.querySelector('.modal-body')
+const bringData = () => {
+    const info = JSON.parse(localStorage.getItem('Producto'));
+
+    const { id, nombre,imagen, imagen2, imagen3, precio} = info;
+    console.log(info);
+    modal.innerHTML += `
+    <li>
+    <div style="width: 20%"><img style="width: 100%" src="${imagen}" alt=""></div>
+    <div><h5>${nombre}</h5><p>$${precio}</p></div>
+    </li>
+    <hr/>
+    <p>Subtotal:$${precio}</p>
+    
+    `
+}
+
 
 
 

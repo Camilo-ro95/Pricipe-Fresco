@@ -87,7 +87,7 @@ const bringData = () => {
     </li>
     <hr/>
     <p>Subtotal:$${precio}</p>
-    <div><a class="btn btn-primary">Pagar</a></div>
+
     `
 }
 

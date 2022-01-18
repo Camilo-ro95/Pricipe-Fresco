@@ -18,20 +18,26 @@
                     src="../img/Príncipe fresco.png" alt=""></a>
             <a class="nav-item nav-link" href="../shop.html" id="shop">SHOP</a>
             <a span class="icon-user" href="../user.html" id="user"></span></a>
-            <a span class="icon-cart" href="#popup" id="cart"></span></a>
+            <a span class="icon-cart " data-bs-toggle="modal" data-bs-target="#reg-modal" id="cart"></span></a>
         </div>
     </nav>
     <br><br>
-    <div id="popup">
-        <div id="body">
-            <a href="#" id="cerrar">&times;</a> 
-            <ul id="cont-carrito">
-                
-                </ul><hr>
-            
+    <!-- Modal -->
+    <div class="modal face " tabindex=" -1" aria-labelledby="modal-title" aria-hidden="true" id="reg-modal">
+        <div class="modal-dialog  float=right " id="body">
+            <div class="modal-content ">
+                <a class="btn-close" href="#" data-bs-dismiss="modal" aria-label="close" id="cerrar"></a>
+                <div class="modal-deader">
+                    <h5></h5>
+                    
+                    
+                    <ul id="cont-carrito" class="modal-body">
+                        <div><a class="btn btn-primary">Pagar</a></div>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- ============================MAIN ======================> -->
+    </div>==========================MAIN ======================> -->
     <main id="main" class="mt-15 p-2" col-3>
         <!-- ---CARDS 1 --------->
         <div class="cards1 container ">
