@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&family=Inter:wght@300&family=Luxurious+Script&family=M+PLUS+Code+Latin&family=Merriweather&family=Mohave:wght@600&family=Montagu+Slab&family=Nunito:ital@1&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap');
-
+*{
+    margin-right: 1%;
+}
 /* ================NAVBAR============= */
 nav{
     padding-right: 5%;
@@ -24,39 +26,25 @@ nav a{
 }
 
 /* ==========MODAL=========== */
-#popup{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.199);
-    transition: opacity .5s;
-    visibility: hidden;
-    opacity: 0;
-}
-#popup:target{
-    visibility: visible;
-    opacity: 1;
-}
+
 #body{
     width: 45%;
     padding: 2%;
     border-radius: 2px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow-y: scroll;
     position: relative;
-    margin: 4.8% 54% auto;
+    margin-left:60vw;
+    margin-top: auto;
+    height: 90vh;
     transition: all 2s ease-in-out;
 }
 #cerrar{
     position: absolute;
     right: 5%;
-    text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    transition: all .5s;
 }
 /* ============Container============== */
 #cont{

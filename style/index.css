@@ -84,12 +84,12 @@ nav a{
 }
 #body{
     width: 45%;
+    height: 100%;
     padding: 2%;
     border-radius: 2px;
     background-color: white;
-    overflow-y: scroll;
     position: relative;
-    margin: 4.8% 54% auto;
+    
     transition: all 2s ease-in-out;
 }
 #cerrar{
